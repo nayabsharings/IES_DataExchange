@@ -124,6 +124,7 @@ services:
       - "3002:3002"
     volumes:
     - ${RESPONSES_DIR:-./sandbox-fixtures/nfh.global/testnet-deg/response}:/app/dist/webhook/jsons/nfh.global/testnet-deg/response
+    - ./sandbox-data/indiaenergystack.in:/app/dist/webhook/jsons/indiaenergystack.in
     # - ${RESPONSES_DIR:-../uc1-meter-data/responses}:/app/dist/webhook/jsons/nfh.global/testnet-deg/response
     healthcheck:
       test: ["CMD", "wget", "-qO-", "http://localhost:3002/api/health"]

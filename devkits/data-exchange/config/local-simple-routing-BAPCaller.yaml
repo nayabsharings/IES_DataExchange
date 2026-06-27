@@ -18,4 +18,3 @@ routingRules:
       url: "https://34.93.165.42.sslip.io/beckn"
     endpoints:
       - discover
-

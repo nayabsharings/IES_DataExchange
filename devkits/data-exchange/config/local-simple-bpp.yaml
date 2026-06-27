@@ -33,7 +33,7 @@ modules:
           config:
             url: https://fabric.nfh.global/registry/dedi
             registryName: subscribers.beckn.one
-            allowedNetworkIDs: "nfh.global/testnet-deg,indiaenergystack.in/winroom-ies-data-exchange"
+            allowedNetworkIDs: "indiaenergystack.in/test-ies-data-sharing-network"
             timeout: 10
             retry_max: 3
             retry_wait_min: 100ms
@@ -41,12 +41,12 @@ modules:
         keyManager:
           id: simplekeymanager
           config:
-            networkParticipant: bpp.example.com
-            keyId: 76EU7ofwRCF1aobQkShARrf1PAUsNpHqWUJoynPu9w45YFKmzqaPmy
-            signingPrivateKey: 393fVJJsfqssJCRAjedKR2cKAjSLrjU3t+bICQ5KzYM=
-            signingPublicKey: CqVy97DW45bcZPPrWIYGe2ldl9C93NFeVciiAEYsvR0=
-            encrPrivateKey: 393fVJJsfqssJCRAjedKR2cKAjSLrjU3t+bICQ5KzYM=
-            encrPublicKey: CqVy97DW45bcZPPrWIYGe2ldl9C93NFeVciiAEYsvR0=
+            networkParticipant: APEPDCL_TEST
+            keyId: 76EU8Ud7iWZFHdGmxPpDAuc8c3S5AEQAgLN7Gr6c19rFJJC9Lp9k9v
+            signingPrivateKey: WrBv1IjOsnhZIpXv9h7cnQIvq1mYpzkWx7bf8dVKpd8=
+            signingPublicKey: PrtrWFsfREzBenDUkFhlMdZnUhVX4jMcQk0sA/KX7LE=
+            encrPrivateKey: WrBv1IjOsnhZIpXv9h7cnQIvq1mYpzkWx7bf8dVKpd8=
+            encrPublicKey: PrtrWFsfREzBenDUkFhlMdZnUhVX4jMcQk0sA/KX7LE=
         cache:
           id: cache
           config:
@@ -89,7 +89,7 @@ modules:
           config:
             url: https://fabric.nfh.global/registry/dedi
             registryName: subscribers.beckn.one
-            allowedNetworkIDs: "nfh.global/testnet-deg,indiaenergystack.in/winroom-ies-data-exchange"
+            allowedNetworkIDs: "indiaenergystack.in/test-ies-data-sharing-network"
             timeout: 10
             retry_max: 3
             retry_wait_min: 100ms
@@ -97,12 +97,12 @@ modules:
         keyManager:
           id: simplekeymanager
           config:
-            networkParticipant: bpp.example.com
-            keyId: 76EU7ofwRCF1aobQkShARrf1PAUsNpHqWUJoynPu9w45YFKmzqaPmy
-            signingPrivateKey: 393fVJJsfqssJCRAjedKR2cKAjSLrjU3t+bICQ5KzYM=
-            signingPublicKey: CqVy97DW45bcZPPrWIYGe2ldl9C93NFeVciiAEYsvR0=
-            encrPrivateKey: 393fVJJsfqssJCRAjedKR2cKAjSLrjU3t+bICQ5KzYM=
-            encrPublicKey: CqVy97DW45bcZPPrWIYGe2ldl9C93NFeVciiAEYsvR0=
+            networkParticipant: APEPDCL_TEST
+            keyId: 76EU8Ud7iWZFHdGmxPpDAuc8c3S5AEQAgLN7Gr6c19rFJJC9Lp9k9v
+            signingPrivateKey: WrBv1IjOsnhZIpXv9h7cnQIvq1mYpzkWx7bf8dVKpd8=
+            signingPublicKey: PrtrWFsfREzBenDUkFhlMdZnUhVX4jMcQk0sA/KX7LE=
+            encrPrivateKey: WrBv1IjOsnhZIpXv9h7cnQIvq1mYpzkWx7bf8dVKpd8=
+            encrPublicKey: PrtrWFsfREzBenDUkFhlMdZnUhVX4jMcQk0sA/KX7LE=
         cache:
           id: cache
           config:
